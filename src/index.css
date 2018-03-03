@@ -1,0 +1,32 @@
+.divTable{
+	display: table;
+  font-family: "Lucida Sans Unicode";
+  border: 10px solid #213E41;
+  background-color: #36696D;
+  width: 20%;
+  height: 120px;
+  text-align: center;
+	position:relative;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableCell {
+	border:3px solid #213E41;
+	display: table-cell;
+	padding: 15px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #FAFFFB;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.strikeout {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+		border: 2px solid #213E41;
+}
